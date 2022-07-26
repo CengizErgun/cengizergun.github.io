@@ -76,6 +76,12 @@ main .brown-section{
     background-color: #807466;
 }
 
+main .paragraph-content {
+    width:75%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
 .space{
     height: 2px;
     background-color: white;
