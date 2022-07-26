@@ -1,0 +1,39 @@
+@media(min-width:768px){.searchresult{padding:0 5px}
+.searchresult .searchSentence__base{--rch-searchresult-top:50px}
+.filters__base{font-size:16px;line-height:21px}
+.filters__base{background-color:#fff;padding:0}
+.filters__filterSummary{font-size:14px;line-height:16px}
+.filters__filterSummary{display:none}
+.filters__actions{margin-bottom:60px}
+.filters__showFiltersButton{font-size:20px;line-height:30px;margin-bottom:60px}
+.filters__overlay{height:calc(100vh - 60px);width:100vw;top:60px;left:0}
+.filters__overlay .filters__filtersTitle{font-size:30px;line-height:30px;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;margin:0;width:auto}
+.filters__overlay .filters__applyFiltersButton{font-size:20px;line-height:30px;-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}
+.filters__section{margin-bottom:36px;padding-left:0;padding-right:10px}
+.filters__section--ordering{display:none}
+.filters__section--ordering{display:none}
+.filters__title{font-size:16px;line-height:21px}
+.filters__title{margin-bottom:0}
+.filters__base>.filters__title{display:none}
+.filters__section .filters__title{border-bottom:1px solid #8d9099}
+.filters__title--medium{display:block}
+.filters__ordering{display:block;position:absolute;top:-6px;right:0;min-width:125px;color:#4977a6;z-index:7;cursor:pointer}
+.results__base{position:relative}
+.results__item{margin-top:60px}
+.results__title{font-size:30px;line-height:27px}
+.results__text,.results__breadcrumbs{font-size:20px;line-height:28px}
+.results__text{margin-top:30px;margin-top:16px}
+.results__breadcrumbs,.results__info{margin-top:20px;margin-top:8px}
+.results__breadcrumbs{margin-top:20px}
+.results__info{font-size:14px;line-height:16px}
+.results__info{font-size:20px;line-height:28px}
+.results__more{--rch-searchresult-show-more-font-size:24px;--rch-searchresult-show-more-line-height:32px}
+.livesearch .results__more{--rch-searchresult-show-more-font-size:20px;--rch-searchresult-show-more-line-height:28px}
+.results__more{margin-top:60px}
+.results__more .searchresult__base--flyout{margin-top:50px}
+.results__utilitiesBtn{font-size:16px;line-height:21px}
+.searchresult__base--flyout .results__utilitiesBtn,.livesearch .results__utilitiesBtn{font-size:22px;line-height:28px}
+.searchresult__base--flyout .results__utilitiesBtn,.livesearch .results__utilitiesBtn{font-size:20px;line-height:28px}
+.results__toTopWrapper{right:0;margin-right:-20px}
+.results__backToTopBtn{bottom:-30px}
+}

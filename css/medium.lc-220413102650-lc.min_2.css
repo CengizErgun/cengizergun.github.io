@@ -1,0 +1,10 @@
+@media(min-width:768px){.footerHotlinks__base{margin-bottom:-50px;margin-top:50px}
+
+.footerHotlinks__wrapper{padding:10px 0}
+
+.footerHotlink__base{display:inline-block;float:left}
+.footerHotlink__wrapper{margin:0;border-bottom:0;border-right:1px solid #ced2da}
+.footerHotlink__icon{margin-left:20px}
+.footerHotlink__text{font-size:20px;line-height:24px}
+.footerHotlink__text{line-height:31px}
+}

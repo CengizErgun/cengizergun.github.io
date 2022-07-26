@@ -1,0 +1,11 @@
+@media(min-width:768px){.teaser{column-break-inside:avoid;page-break-inside:avoid;-webkit-column-break-inside:avoid;-moz-column-break-inside:avoid;break-inside:avoid-column}
+.teaser__base{color:#688bb6}
+.teaser__base--target{width:31.550802139%;float:left;margin-right:2.6737967914%;display:inline-block}
+.teaser__base--target:last-of-type{margin-right:0}
+.teaser__heading{font-size:24px;line-height:28px}
+.teaser__heading--microsite{padding:0 0 12px}
+.teaser__imageWrapper--microsite{width:22.9946524064%;float:left;margin-right:2.6737967914%;margin:0;padding-right:19px}
+.teaser__text{font-size:16px;line-height:21px}
+.teaser__link--microsite{padding:15px 20px}
+.teaser__textWrapper--microsite{width:74.3315508021%;float:left;margin-right:2.6737967914%;margin-right:0}
+}

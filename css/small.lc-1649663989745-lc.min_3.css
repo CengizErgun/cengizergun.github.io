@@ -1,0 +1,33 @@
+.homePageBar__base.titleBar__base{padding-top:10px;padding-bottom:20px;padding-left:10px;-webkit-transition:.6s max-height ease-in-out;transition:.6s max-height ease-in-out;margin-bottom:40px}
+.homePageBar__base.titleBar__base .breadcrumb__root{font-family:"FrutigerNext",Helvetica,Arial,sans-serif;font-weight:300;font-size:18px;line-height:22px;margin-bottom:5px}
+.homePageBar__base.titleBar__base .bankselector__wrapper{margin-bottom:15px}
+.homePageBar__base.titleBar__base .bankselector__wrapper--languagePage{float:none}
+.homePageBar__base.titleBar__base .bankselector__placeholderBox{font-family:"FrutigerNext",Helvetica,Arial,sans-serif;font-weight:normal;font-size:14px;line-height:19px;font-weight:bold;height:100%}
+.homePageBar__base.titleBar__base .bankselector__placeholderText{padding-bottom:1px}
+.overlayVisible .homePageBar__base.titleBar__base .bankselector__input{font-family:"FrutigerNext",Helvetica,Arial,sans-serif;font-weight:normal;font-size:14px;line-height:19px;font-weight:bold}
+.overlayVisible .homePageBar__base.titleBar__base .bankselector__base{z-index:0}
+.homePageBar__base.titleBar__base .bankselector__wrapperIcon{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.homePageBar__base.titleBar__base .bankselector__wrapperIcon:before{font-size:31px}
+.homePageBar__base.titleBar__base .bankselector--hasError .bankselector__errorBox{z-index:13}
+.homePageBar__base.titleBar__base .button--white{border-color:transparent}
+.homePageBar__base.titleBar__base .button--white[disabled]{background:#ced2da;color:#fff;border-color:transparent}
+.homePageBar__base.titleBar__base.nsOpen{overflow:visible}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:19px;padding-bottom:15px;margin-top:0}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage .bankselector__wrapper{margin-bottom:0;margin-left:0}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage .bankselector__wrapper .bankselector__base{margin-left:0}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage .bankselector__errorBox{top:100%}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage .bankselector__resultsBox{position:absolute;top:100%;width:100%}
+.homePageBar__slogan{font-family:"FrutigerNext",Helvetica,Arial,sans-serif;font-weight:300;font-size:35px;line-height:44px;margin-bottom:0}
+.homePageBar__slogan:last-child{margin-bottom:-14px}
+.homePageBar__slogan--sites{margin-top:0;margin-bottom:5px}
+.homePageBar__slogan--sites:last-child{margin-bottom:-10px}
+.homePageBar__slogan--languagePage{margin-right:10px;display:inline}
+.homePageBar__base--sites .titleBar__leadText{margin-bottom:13px;display:block}
+.homePageBar__base--sites .titleBar__leadText:last-child{margin-bottom:-5px}
+@media(min-width:480px){.homePageBar__base.titleBar__base{margin-bottom:50px}
+}
+@media print{.homePageBar__base.titleBar__base{padding-right:10px;margin-left:10px;width:100%}
+.nsOpen .homePageBar__base.titleBar__base .titleBar__breadcrumbs{display:none}
+.homePageBar__base.titleBar__base .bankselector__placeholderBox{padding-top:0;padding-right:0;width:500px}
+.nsOpen .homePageBar__slogan{display:none}
+}

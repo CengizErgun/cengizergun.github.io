@@ -1,0 +1,11 @@
+@media(min-width:768px){.heroTeaser__base{width:100%;height:0;padding-bottom:35.5555555556%;position:relative}
+.heroTeaser__base .img__base{position:static}
+.heroTeaser__base iframe,.heroTeaser__base img,.heroTeaser__base picture,.heroTeaser__base video{position:absolute;top:0;left:0;width:100%;height:100%}
+.heroTeaser__label{font-size:16px;line-height:18px}
+.heroTeaser__label{width:65.7754010695%;float:left;margin-right:2.6737967914%;position:absolute;bottom:0;background-color:rgba(247,247,249,.95)}
+.languagepage__topLeft .heroTeaser__label{width:73.9837398374%;float:left;margin-right:4.0650406504%}
+.heroTeaser__heading{font-size:24px;line-height:28px}
+.heroTeaser__heading{padding-right:20px}
+.heroTeaser__icon{top:13px;right:13px}
+.heroTeaser__text{font-size:16px;line-height:21px}
+}

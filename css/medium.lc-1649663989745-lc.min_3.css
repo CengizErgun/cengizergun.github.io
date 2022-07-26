@@ -1,0 +1,16 @@
+@media(min-width:768px){.homePageBar__base.titleBar__base .breadcrumb__base{margin-bottom:19px}
+.homePageBar__base.titleBar__base .breadcrumb__root{font-size:24px;line-height:28px}
+.homePageBar__base.titleBar__base .bankselector__wrapper{min-height:35px}
+.homePageBar__base.titleBar__base .bankselector__placeholderBox{font-size:16px;line-height:21px}
+.homePageBar__base.titleBar__base .bankselector__placeholderText{padding-bottom:0}
+.overlayVisible .homePageBar__base.titleBar__base .bankselector__input{font-size:16px;line-height:21px}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage .bankselector__wrapper{margin-bottom:11px}
+.homePageBar__base.titleBar__base.homePageBar__base--languagePage{padding-bottom:2px}
+.homePageBar__slogan{font-size:50px;line-height:65px}
+.homePageBar__slogan{margin-bottom:11px}
+.homePageBar__slogan--sites{margin-bottom:-2px;margin-top:5px}
+.homePageBar__slogan--sites:last-child{margin-bottom:-6px}
+.homePageBar__slogan--languagePage{margin-right:20px}
+.homePageBar__base--sites .titleBar__leadText{margin-bottom:24px}
+.homePageBar__base--sites .titleBar__leadText:last-child{margin-bottom:5px}
+}

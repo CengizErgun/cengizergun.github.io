@@ -1,0 +1,37 @@
+@media(min-width:992px){.bankselector__errorBox{width:inherit}
+.footer__langswitch{padding-top:18px}
+.header__menuButton.header--isOpen>.header__menuButtonContents>span:not(.header__menuButtonText):nth-child(1){top:17px;transform:rotate(-45deg)}
+.header__menuButton.header--isOpen>.header__menuButtonContents>span:not(.header__menuButtonText):nth-child(2){width:0}
+.header__menuButton.header--isOpen>.header__menuButtonContents>span:not(.header__menuButtonText):nth-child(3){top:17px;transform:rotate(45deg)}
+.header__menuButton[aria-expanded=true]::after{opacity:1}
+.header__searchBarInputWrapper .autocomplete__base{height:75px;font-size:60px;line-height:68px}
+.header__searchBarInputWrapper .header__searchBarInput{--rch-header-magnifier-width:37px;height:75px}
+.menu__base{position:absolute;top:60px;left:0;padding:0;height:auto;background-color:#f7f7f9;box-shadow:100px 0 0 0 #f7f7f9,-100px 0 0 0 #f7f7f9;opacity:0;transition:opacity ease-in-out .25s}
+.menu__base.menu--isVisible{background-color:#f7f7f9;opacity:1}
+.menu__navigation{max-width:1200px;margin:0 auto;box-sizing:border-box;width:100%;height:auto;max-height:calc(100% - 60px);box-shadow:none;overflow-y:auto;transform:translateX(0);transition:opacity ease-in-out .25s}
+.menu__controlsMobile{display:none}
+.menu__scrollable{display:none}
+.menu__link{padding:7px 19px 6px}
+.menu__link.menu--hasChildren{padding:7px 36px 6px 19px}
+.menu__link.menu--isCurrent{background:0}
+.menu__link.menu--isActive{color:#536f92}
+.menu__link:hover{background:0}
+.focusable .menu__link:focus::after{right:10px;left:10px}
+.menu__link:focus{color:#4977a6}
+.menu__item:first-child>.menu__link{padding-top:17px}
+.menu__item:first-child>.menu__link:focus::after{top:10px}
+.menu__item:last-child>.menu__link{padding-bottom:26px}
+.menu__item:last-child>.menu__link:focus::after{bottom:20px}
+.menu__link>.icon::before{line-height:18px}
+.menu__controlsDesktop{display:flex;flex-wrap:wrap}
+.menu__tabUnderline{position:absolute;top:53px;left:0;height:2px;background:#536f92;transition:width ease-in-out .25s,transform ease-in-out .25s;z-index:1;pointer-events:none}
+.menu__teaserColumn{display:block}
+.header__metaNavLink,.header__metaNavButton{padding:0 14px}
+.header__metaNavLink::before,.header__metaNavButton::before{left:5px;right:5px}
+#userAccount__loggedOut>.header__metaNavText{display:block}
+.header__searchBar{width:100vw;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;padding:30px 30px 70px 93px}
+.header__searchBar__container{padding-top:50px}
+.header__searchBarInput.input__base{font-size:60px;line-height:68px;padding:0}
+.header__searchBarIcon{height:56px;width:37px;padding:20px 0 0 0}
+.header__searchBarIcon.icon::before{font-size:37px}
+}

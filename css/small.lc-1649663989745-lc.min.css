@@ -1,0 +1,20 @@
+.languagepage__sectionContainer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.languagepage__newsContainer{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
+.languagepage__widgetContainer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;margin-top:40px}
+.languagepage__widgetContainer .widgetWrapper{width:100%}
+.languagepage__widgetContainer .stockmarketwidget{min-height:580px}
+.languagepage__teaserContainer{width:100%;-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}
+.aem-AuthorLayer-Edit .languagepage__teaserContainer{width:100%}
+.languagepage__layout{padding:0 10px}
+.languagepage__layout+.footerHotlink.cq-Editable-dom{margin-top:20px}
+.languagepage__row{zoom:1}
+.languagepage__row:before,.languagepage__row:after{content:".";display:block;height:0;overflow:hidden}
+.languagepage__row:after{clear:both}
+.languagepage__teaser,.languagepage__widget{margin-top:20px}
+.languagepage__location,.languagepage__municipality{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.languagepage__teasers .teaser:nth-of-type(3n+1){clear:both}
+.languagepage__teasers .teaser:first-of-type{clear:none}
+.languagepage__teasers .new.section,.languagepage__teasers .teaser{margin-top:20px}
+.languagepage__teasers .new.section.cq-Editable-dom{margin-top:20px !important;margin-bottom:0 !important}
+.languagepage__newsfeed{margin-top:40px}
+.languagepage__sectionTitle{font-family:"FrutigerNext",Helvetica,Arial,sans-serif;font-weight:300;font-size:28px;line-height:32px;margin-top:36px;margin-bottom:22px}
