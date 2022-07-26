@@ -1,0 +1,334 @@
+.promotion-card {
+    padding: 50px;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: 0.8s ease;
+    display: block;
+  }
+  .promotion-card .promotion-content {
+    color: black;
+    padding: 1em;
+    max-width: 50%;
+    position: relative;
+    z-index: 0;
+  }
+  .promotion-card .promotion-content h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    display:  inline-block;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .promotion-card .promotion-content p {
+    padding-bottom: 0.6rem;
+  }
+
+
+  .promotion-card.light .promotion-content {
+    color: black;
+  }
+  .promotion-card .promotion-blob {
+    position: absolute;
+    right: -70px;
+    top: -70px;
+    width: 360px;
+    height: 360px;
+    background: #e79b8f;
+    border-radius: 320px;
+    opacity: 0.8;
+    transition: 0.2s ease;
+  }
+  .promotion-card .promotion-blob::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 240px;
+    height: 240px;
+    background: #e85e49;
+    border-radius: 320px;
+    opacity: 0.9;
+    transition: 0.25s ease;
+  }
+  .promotion-card .promotion-blob::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    background: #E5361C;
+    border-radius: 320px;
+    transition: 0.27s ease;
+  }
+  /* .promotion-card:hover {
+    transform: translateY(-5%);
+  } */
+  .promotion-card:hover .promotion-blob {
+    width: 480px;
+    height: 480px;
+  }
+  .promotion-card:hover .promotion-blob::after {
+    width: 200px;
+    height: 200px;
+  }
+  .promotion-card:hover .promotion-blob::before {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .promotion-card-deck {
+    /* width: 70%; */
+    height: auto;
+    display: flex;
+    /* gap: 1em; */
+    /* position: absolute; */
+    /* padding-top: 32rem;
+    padding-bottom: 5rem; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+
+  .wrapper {
+    margin: auto auto;
+  }
+  .wrapper div {
+    position: relative;
+    display: flex;
+    height: 4rem;
+    border: 0;
+    border-radius: 4rem;
+
+  }
+  .wrapper span {
+    margin-top: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 1.1rem;
+    display: grid;
+    place-items: center;
+    height: 3rem;
+    width: 6rem;
+    font-size: 0.875rem;
+    border-radius: inherit;
+    background: #e79b8f;
+    color: black;
+    pointer-events: none;
+    transition: all 0.35s;
+    letter-spacing: 1px;
+  }
+  .wrapper input {
+    margin-top: 2rem;
+    flex: 1 1 auto;
+    padding-left: 7.5rem;
+    height: inherit;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    text-indent: 0.625rem;
+    transition: all 0.35s;
+  }
+  .wrapper input::placeholder {
+    color: #9b9ba5;
+  }
+  .wrapper input:focus {
+    transform: translateX(-6rem);
+  }
+  .wrapper input:focus ~ span {
+    transform: translateY(-3rem);
+  }
+
+
+  .button-container  button {
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+}
+  /* button */
+.button-container{
+    margin-left: 1.5rem;
+}
+
+.button-container button:nth-of-type(2) {
+  margin-left: 1.5rem; 
+}
+
+.button-container button{
+  background-color: red;
+}
+.button-container button:hover{
+  background-color: rgb(223, 97, 97);
+}
+
+
+.button-container button:first-child{
+  background-color: green;
+}
+.button-container button:first-child:hover{
+  background-color: rgb(56, 187, 56);
+}
+
+
+
+
+button span {
+  font-size: 18px;
+}
+
+.submitButton__base{
+    line-height: 28px;
+    /* font-family: "FrutigerNext",Helvetica,Arial,sans-serif; */
+    font-weight: 300;
+
+    line-height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: 0;
+    background: #333;
+    color: #fff;
+    padding: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+.container-tb* { box-sizing:border-box; text-align:center; color: #b0b0b0; line-height: 0.5}
+
+
+	.container-tb 		{ 
+	  display:block; 
+	  background:#FFF;
+	  padding:10px 50px 10px 20px;
+    text-align:left;
+	}
+.container-tb  .btn{
+  border: solid 1px #eee;
+  border-radius: 2px;
+  padding: 10px 25px;
+  color: #616161;
+  font-weight: bolder;
+}
+.container-tb  .btn:hover{
+  background:rgba(28, 135, 164, 0.7);
+  color:#fff;
+}
+.container-tb 	.group 			  { 
+	  position:relative; 
+	  margin-bottom:45px; 
+	}
+.container-tb 	input{
+    text-align:left;
+	  font-size:18px;
+	  padding:10px 10px 10px 5px;
+	  display:block;
+	  width:380px;
+	  border:none;
+	  border-bottom:1px solid #E5361C;
+	}
+	.container-tb  input:focus { outline:none; }
+
+	.container-tb  label 				 {
+	  color:#999; 
+	  font-size:18px;
+	  font-weight:normal;
+	  position:absolute;
+	  pointer-events:none;
+	  left:5px;
+	  top:20px;
+	  transition:0.2s ease all; 
+	  -moz-transition:0.2s ease all; 
+	  -webkit-transition:0.2s ease all;
+	}
+
+	.container-tb  input:focus ~ label, input:valid ~ label 		{
+	  top:-5px;
+	  font-size:14px;
+	}
+
+	.container-tb  .span2 	{ position:relative; display:block; width:380px; }
+	.container-tb  .span2:before, .span2:after 	{
+	  content:'';
+	  height:2px; 
+	  width:0;
+	  bottom:1px; 
+	  position:absolute;
+	  background:#E5361C; 
+	  transition:0.2s ease all; 
+	  -moz-transition:0.2s ease all; 
+	  -webkit-transition:0.2s ease all;
+	}
+	.container-tb  .span2:before {
+	  left:50%;
+	}
+	.container-tb  .span2:after {
+	  right:50%; 
+	}
+
+	.container-tb  input:focus ~ .span2:before, input:focus ~ .span2:after {
+	  width:50%;
+	}
+	.container-tb .span1 {
+	  position:absolute;
+	  height:60%; 
+	  width:100px; 
+	  top:25%; 
+	  left:0;
+	  pointer-events:none;
+	  opacity:0.5;
+	}
+
+	.container-tb  input:focus ~ .span1 {
+	  -webkit-animation:inputspan1er 0.3s ease;
+	  -moz-animation:inputspan1er 0.3s ease;
+	  animation:inputspan1er 0.3s ease;
+	}
+
+  @media only screen and (max-width: 820px) {
+    .promotion-card .promotion-blob {
+      display: none;
+    }
+    .promotion-card .promotion-blob::before {
+      display: none;
+    }
+    .promotion-card .promotion-blob::after {
+      display: none;
+    }
+    .promotion-card .promotion-content{
+      max-width: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 440px) {
+
+    .button-container button:nth-of-type(2) {
+      display: block;
+      margin-left: 0px; 
+      margin-top: 20px;
+    }
+
+    .button-container button{
+      width: 100%;
+    }
+
+
+
+    .promotion-card{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }

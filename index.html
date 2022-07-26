@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./extracss/bootstrapiso.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./webfont/stylesheet.css">
     <link rel="stylesheet" href="./css/fonts-and-icons.lc-1649663989745-lc.min.css">
+    <link rel="stylesheet" href="./extracss/couponFirst.css">
+    <script src="./vendor/jquery/jquery.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div class="navbar">
         <div class="inner">
             <a href="https://www.raiffeisen.ch/rch/de.html">
-                <img src="images/raiffeisen_logo_big.png" class="img-big" > 
+                <img src="images/raiffeisen_logo_big.png" class="img-big">
             </a>
             <a href="https://www.raiffeisen.ch/rch/de.html">
-                <img src="images/raiffeisen_logo_small.png" class="img-small"> 
+                <img src="images/raiffeisen_logo_small.png" class="img-small">
             </a>
         </div>
     </div>
@@ -31,12 +36,43 @@
                 Raiffeisen
             </p>
         </div>
-        <div class="paragraph-content">
-            <h1>
-                This content will be changed according to opt-in/opt-out result and code-enter screen.
-            </h1>
-        </div>
+        <div class="content">
+            <div class="layout-row bootstrap-iso">
+                <!-- My Content -->
+                <div class="promotion-card-deck">
 
+                    <div class="promotion-card dark">
+                        <div class="promotion-blob"></div>
+                        <div class="promotion-content">
+                            <h2>Permission to Receive Promotions</h2>
+                            <p>Please enter your customer code. If you want to
+                                receive information about promotions and
+                                campaigns, click the "Confirm" button. If you do
+                                not want to receive promotions, please click the
+                                "Decline" button.</p>
+                        </div>
+                        <div class="container-tb">
+                            <div class="group">
+                                <input id="Code" type="text" required>
+                                <span class="span1"></span>
+                                <span class="span2"></span>
+                                <label>Code*</label>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="submitButton__base optin" type="button" value="Senden" name="senden">
+                                <span>Confirm</span>
+                            </button>
+                            <button class="submitButton__base optout" type="button" value="Senden" name="senden">
+                                <span>Decline</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- My Content Finish-->
+            </div>
+
+        </div>
     </main>
     <div class="footer-hotlink">
         <div class="inner-container">
@@ -52,8 +88,7 @@
                 <li>
                     <a href="https://www.raiffeisen.ch/rch/de/privatkunden/vorsorge-versicherung.html">
                         <div class="newspaper do-center">
-                            <span
-                            class="footerHotlink__icon icon icon-newspaper"></span>&nbsp;&nbsp;
+                            <span class="footerHotlink__icon icon icon-newspaper"></span>&nbsp;&nbsp;
                             <span class="text">Vorsorge
                                 und Versicherung</span>
                         </div>
@@ -62,8 +97,7 @@
                 <li>
                     <a href="https://www.raiffeisen.ch/rch/de/privatkunden/anlegen.html">
                         <div class="bars-mix do-center">
-                            <span
-                            class="footerHotlink__icon icon icon-bars-mix"></span>&nbsp;&nbsp;
+                            <span class="footerHotlink__icon icon icon-bars-mix"></span>&nbsp;&nbsp;
                             <span class="text">Anlegen</span>
                         </div>
                     </a>
@@ -71,8 +105,7 @@
                 <li>
                     <a href="https://jobs.raiffeisen.ch/">
                         <div class="speech-bubble do-center">
-                            <span
-                            class="footerHotlink__icon icon icon-speech-bubble"></span>&nbsp;&nbsp;
+                            <span class="footerHotlink__icon icon icon-speech-bubble"></span>&nbsp;&nbsp;
                             <span class="text">Jobs</span>
                         </div>
                     </a>
@@ -81,7 +114,6 @@
         </div>
     </div>
     <div class="space">
-
     </div>
     <footer>
         <div class="address">
@@ -92,50 +124,194 @@
         </div>
         <div class="links">
             <div class="links-first">
-                <a href="#">Karriere</a>
-                <a href="#">Rechtliches, Datenschutz und Impressum</a>
-                <a href="#">News</a>
-                <a href="#">Newsletter</a>
-                <a href="#">Standorte und Bancomaten</a>
-                <a href="#">Öffnungszeiten und Bankleitzahlen</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/karriere-stellen.html">Karriere</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/disclaimer-website.html">Rechtliches,
+                    Datenschutz und Impressum</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/news.html">News</a>
+                <a href="https://newsletter.raiffeisen.ch/de/newsletter">Newsletter</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/standorte-bancomaten.html">Standorte und
+                    Bancomaten</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/oeffnungszeiten.html">Öffnungszeiten und
+                    Bankleitzahlen</a>
             </div>
             <div class="links-second">
-                <a href="#">Adressänderung</a>
-                <a href="#">Investor Relations</a>
-                <a href="#">Kartensperrung und Support</a>
-                <a href="#">Secure Webmail</a>
-                <a href="#">IBAN-Abfrage</a>
-                <a href="#">Sitemap</a>
+                <a
+                    href="https://www.raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/adressaenderung.html">Adressänderung</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/markets.html">Investor Relations</a>
+                <a
+                    href="https://www.raiffeisen.ch/rch/de/privatkunden/bezahlen-und-ueberweisen/karten-und-reisezahlungsmittel/kartensperrung.html">Kartensperrung
+                    und Support</a>
+                <a
+                    href="https://www.raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/mailverschluesselung/secure-webmail.html">Secure
+                    Webmail</a>
+                <a
+                    href="https://www.raiffeisen.ch/rch/de/ueber-uns/ueber-raiffeisen/maintenance/erreichbarkeit-iban-anfrage.html">IBAN-Abfrage</a>
+                <a href="https://www.raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/sitemap.html">Sitemap</a>
             </div>
         </div>
         <div class="social-media">
-            <a>
-                <img src="./images/icons/facebook.png"/>
+            <a href="https://www.facebook.com/RaiffeisenMemberPlus.Schweiz/" target=”_blank”>
+                <img src="./images/icons/facebook.png" />
             </a>
-            <a>
-                <img src="./images/icons/twitter.png"/>
+            <a href="https://twitter.com/Raiffeisen_CH" target=”_blank”>
+                <img src="./images/icons/twitter.png" />
             </a>
-            <a>
-                <img src="./images/icons/instagram.png"/>
+            <a href="https://www.instagram.com/raiffeisen_ch/" target=”_blank”>
+                <img src="./images/icons/instagram.png" />
             </a>
-            <a>
-                <img src="./images/icons/linkedin.png"/>
+            <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFq2HhijJdeAQAAAYI5-3yY6uh5b_mcYwXiA8FQNk2CU-hkxfcHUPaBF8MSSkA07aRaMiMJHSpmCHdwOmEUflvBvcfiJTegZlvRpkcpUleaIRFU1gon4Mc63DsI0SDvlDZ9bmM=&original_referer=https://www.raiffeisen.ch/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fraiffeisen-switzerland"
+                target=”_blank”>
+                <img src="./images/icons/linkedin.png" />
             </a>
-            
+
         </div>
         <div class="copyright">
             <p>
-                &copy <script>document.write( new Date().getFullYear() );</script> Raiffeisen Schweiz
+                &copy
+                <script>document.write(new Date().getFullYear());</script> Raiffeisen Schweiz
             </p>
         </div>
         <ul class="language">
-            <li><a href="#">DE</a></li>     
-            <li><a href="#">FR</a></li>     
-            <li><a href="#">IT</a></li>     
+            <li><a href="http://127.0.0.1:5500/index.html">DE</a></li>
+            <li><a href="#">FR</a></li>
+            <li><a href="#">IT</a></li>
         </ul>
     </footer>
     <div class="blabla">
-        <div> Icons made by <a href="https://www.flaticon.com/authors/najmunnahar" title="NajmunNahar"> NajmunNahar </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+        <div> Icons made by <a href="https://www.flaticon.com/authors/najmunnahar" title="NajmunNahar"> NajmunNahar </a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
     </div>
+    <!-- custom js -->
+    <script>
+        "use strict";
+
+        var Code = function () {
+            var _checkCode = function () {
+                var code = $("#Code").val();
+                if (!code) {
+                    return false;
+                } else {
+                    return true;
+                }
+            };
+            var init = function () {
+                $(document).ajaxStop($.unblockUI);
+                setTimeout(function () { $("#Code").focus(); }, 2000);
+
+                $(document).on("click", ".optin", function () {
+                    var code = $("#Code").val();
+                    if (!_checkCode()) {
+                        CommonApp.DisplayPopupNotification("error", "Please enter customer code", "Error");
+                        return;
+                    }
+
+                    swal({
+                        title: 'Are you sure?',
+                        text: 'You agree to receive promotions, do you want to continue?',
+                        icon: 'warning',
+                        buttons: ["No", "Yes"]
+                    }).then(function (confirma) {
+                        if (confirma) {
+                            CommonApp.BlockUI();
+                            $.ajax({
+                                url: '/Opt/OptIn',
+                                type: 'POST',
+                                data: {
+                                    "code": code
+                                },
+                                cache: false,
+                                success: function (json) {
+                                    if (json.isSuccessed) {
+                                        swal({
+                                            title: 'Receive Promotions',
+                                            text: 'Success',
+                                            icon: 'success',
+                                            button: {
+                                                text: "Ok",
+                                                closeModal: true,
+                                            }
+                                        }).then(function (confirma) {
+                                            $("#getcode").hide("fast");
+                                            $("#codeoptin").show("fast");
+                                        });
+                                    } else {
+                                        CommonApp.DisplayPopupNotification("error", json.message, "Error");
+                                    }
+
+                                }
+                            });
+                        }
+                    });
+
+                });
+                $(document).on("click", ".optout", function () {
+                    var code = $("#Code").val();
+                    if (!_checkCode()) {
+                        CommonApp.DisplayPopupNotification("error", "Please enter customer code", "Error");
+                        return;
+                    }
+
+                    swal({
+                        title: 'Are you sure?',
+                        text: 'You decline to receive promotions, do you want to continue?',
+                        icon: 'warning',
+                        buttons: ["No", "Yes"]
+                    }).then(function (confirma) {
+                        if (confirma) {
+                            CommonApp.BlockUI();
+                            $.ajax({
+                                url: '/Opt/OptOut',
+                                type: 'POST',
+                                data: {
+                                    "code": code
+                                },
+                                cache: false,
+                                success: function (json) {
+                                    if (json.isSuccessed) {
+                                        swal({
+                                            title: 'Decline Promotions',
+                                            text: 'Success',
+                                            icon: 'success',
+                                            button: {
+                                                text: "Ok",
+                                                closeModal: true,
+                                            }
+                                        }).then(function (confirma) {
+                                            $("#getcode").hide("fast");
+                                            $("#codeoptout").show("fast");
+                                        });
+                                    } else {
+                                        CommonApp.DisplayPopupNotification("error", json.message, "Error");
+                                    }
+
+                                }
+                            });
+                        }
+                    });
+
+                });
+
+            };
+
+
+            return {
+                init: function () {
+                    init();
+                }
+            };
+        }();
+
+        jQuery(document).ready(function () {
+            Code.init();
+        });
+    </script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"
+        integrity="sha512-eYSzo+20ajZMRsjxB6L7eyqo5kuXuS2+wEbbOkpaur+sA2shQameiJiWEzCIDwJqaB0a4a6tCuEvCOBHUg3Skg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/CommonApp.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
+
 </html>
