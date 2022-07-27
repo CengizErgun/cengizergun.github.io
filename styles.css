@@ -74,6 +74,10 @@ main .brown-section{
     background-color: #807466;
 }
 
+main .brown-section p{
+    display: inline-block;
+}
+
 main .content{
     margin: 20px;
     background-color: white;
