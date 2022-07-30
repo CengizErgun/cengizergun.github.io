@@ -76,6 +76,7 @@ main .brown-section{
 
 main .brown-section p{
     display: inline-block;
+    padding-left: 15px;
 }
 
 main .content{

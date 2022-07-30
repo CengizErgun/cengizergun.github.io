@@ -145,14 +145,16 @@
   }
 
 
-  .button-container  button {
-    box-sizing: border-box;
-    cursor: pointer;
-    color: white;
-}
+
   /* button */
 .button-container{
     margin-left: 1.5rem;
+}
+
+.button-container  button {
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
 }
 
 .button-container button:nth-of-type(2) {
@@ -323,6 +325,10 @@ button span {
 
     .button-container button{
       width: 100%;
+    }
+
+    .button-container{
+      margin-left: 0px;
     }
 
 
