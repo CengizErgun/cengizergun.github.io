@@ -312,7 +312,12 @@ button span {
     .promotion-card .promotion-content{
       max-width: 100%;
     }
-
+    .container-tb input{
+      width: 100%;
+    }
+    .container-tb .span2{
+      width: 100%;
+    }
   }
 
   @media only screen and (max-width: 440px) {
