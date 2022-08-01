@@ -153,6 +153,7 @@
 
 .button-container  button {
   box-sizing: border-box;
+  width: 120px;
   cursor: pointer;
   color: white;
 }

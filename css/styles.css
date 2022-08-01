@@ -4,7 +4,6 @@
 }
 
 body{
-    /* background-color: grey; */
     font-family: 'frutigerlight';
     background-color: #EFF0F3;
 }
@@ -34,7 +33,7 @@ a:hover {
     width: 100%;
     position: fixed;
     top: 0%;
-    /* Dikey olarak içeriği ortalama */
+    /* Content vertical align */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -409,13 +408,4 @@ footer .language li:not(:first-child) a{
     }
 
 
-}
-
-
-
-
-
-
-.blabla {
-    display: none;
 }

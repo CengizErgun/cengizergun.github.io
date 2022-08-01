@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <!-- <meta name="viewport" content="target-densitydpi=device-dpi"> -->
-    <link href="./extracss/bootstrapiso.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+
+    <!-- bootstrap isolator -->
+    <!-- https://formden.com/blog/isolate-bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrapiso.css" >
+
+    <!-- css files -->
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./webfont/stylesheet.css">
     <link rel="stylesheet" href="./css/fonts-and-icons.lc-1649663989745-lc.min.css">
-    <link rel="stylesheet" href="./extracss/couponFirst.css">
-    <title>Raiffeisen Schweiz</title>
+    <link rel="stylesheet" href="./css/couponfirst.css">
+    
+    <!-- icons -->
     <link rel="icon" href="./images/icons/android-chrome-192x192.ico" />
     <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-touch-icon-72x72.png">
@@ -27,8 +31,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
 
-    <script src="./vendor/jquery/jquery.min.js"></script>
-    
+    <title>Raiffeisen Schweiz</title>
 </head>
 
 <body>
@@ -49,7 +52,6 @@
             <img src="./images/main-photo-big.jpg" class="img-big" alt="">
         </div>
         <div class="brown-section">
-            <!-- &nbsp; -->
             <p>
                 Strengthening local retail together
             </p>
@@ -92,47 +94,6 @@
 
         </div>
     </main>
-    <!-- <div class="footer-hotlink">
-        <div class="inner-container">
-            <ul>
-                <li>
-                    <a href="https://www.raiffeisen.ch/rch/de/privatkunden/hypotheken.html">
-                        <div class="percent do-center">
-                            <span class="footerHotlink__icon icon icon-percent"></span>&nbsp;&nbsp;
-                            <span class="text">Hypotheken</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.raiffeisen.ch/rch/de/privatkunden/vorsorge-versicherung.html">
-                        <div class="newspaper do-center">
-                            <span class="footerHotlink__icon icon icon-newspaper"></span>&nbsp;&nbsp;
-                            <span class="text">Vorsorge
-                                und Versicherung</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.raiffeisen.ch/rch/de/privatkunden/anlegen.html">
-                        <div class="bars-mix do-center">
-                            <span class="footerHotlink__icon icon icon-bars-mix"></span>&nbsp;&nbsp;
-                            <span class="text">Anlegen</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://jobs.raiffeisen.ch/">
-                        <div class="speech-bubble do-center">
-                            <span class="footerHotlink__icon icon icon-speech-bubble"></span>&nbsp;&nbsp;
-                            <span class="text">Jobs</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="space">
-    </div> -->
     <footer>
         <div class="address">
             Raiffeisen Schweiz<br><br>
@@ -189,16 +150,17 @@
                 <script>document.write(new Date().getFullYear());</script> Raiffeisen Schweiz
             </p>
         </div>
-        <!-- <ul class="language">
-            <li><a href="http://127.0.0.1:5500/index.html">DE</a></li>
-            <li><a href="#">FR</a></li>
-            <li><a href="#">IT</a></li>
-        </ul> -->
     </footer>
-    <div class="blabla">
-        <div> Icons made by <a href="https://www.flaticon.com/authors/najmunnahar" title="NajmunNahar"> NajmunNahar </a>
-            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
-    </div>
+
+    <!-- scripts  -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/CommonApp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"
+        integrity="sha512-eYSzo+20ajZMRsjxB6L7eyqo5kuXuS2+wEbbOkpaur+sA2shQameiJiWEzCIDwJqaB0a4a6tCuEvCOBHUg3Skg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <!-- <script src="./js/custom.js"></script> -->
+
     <!-- custom js -->
     <script>
         "use strict";
@@ -323,13 +285,6 @@
             Code.init();
         });
     </script>
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"
-        integrity="sha512-eYSzo+20ajZMRsjxB6L7eyqo5kuXuS2+wEbbOkpaur+sA2shQameiJiWEzCIDwJqaB0a4a6tCuEvCOBHUg3Skg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/CommonApp.js"></script>
-    <script src="./js/custom.js"></script>
 </body>
 
 </html>

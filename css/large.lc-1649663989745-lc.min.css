@@ -1,7 +1,0 @@
-@media(min-width:992px){.header__searchBar .searchresult__base{padding-right:95px}
-.searchresult .searchSentence__base{--rch-searchresult-top:90px}
-.results__item:first-child{margin-top:60px}
-.results__title{font-size:30px;line-height:40px}
-.results__breadcrumbs{margin-top:23px}
-.results__more .searchresult__base--flyout{margin-top:60px}
-}
